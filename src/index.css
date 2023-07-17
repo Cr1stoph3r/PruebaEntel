@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+:root {
+  font-family: 'Barlow', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+
+body {
+    margin: 0;
+    justify-content: center;
+    width: 100%;
+  }

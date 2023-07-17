@@ -1,0 +1,22 @@
+.container-list{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;;
+}
+
+.list{
+width: 55%;
+height: auto;
+}
+
+.header-list h2{
+    color: rgba(25, 25, 25, 0.8);
+    font-size: 32px;
+}
+
+.header-list p {
+    color: rgba(25, 25, 25, 1);
+    font-size: 20px;
+    margin-top: -14px;
+}

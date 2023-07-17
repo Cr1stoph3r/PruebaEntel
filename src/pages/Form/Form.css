@@ -1,0 +1,129 @@
+/* Header form */
+.container-head-form {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+.head-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 424px;
+}
+.container-head-text{
+margin-left: 140px;
+width: 600px;
+height: 67px;
+}
+.container-head-text h1{
+    font-weight: normal;
+    font-size: 56px;
+    margin-top: 0px;
+    color: rgba(0, 46, 255, 1);
+
+}
+.container-head-img {
+margin-right: 16px;
+}
+hr {
+    position: absolute; 
+    z-index: 1000; 
+    top: 433px; 
+    left: 0;
+    width: 100%;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(204, 204, 204, 1);
+}
+
+/* Header form */
+
+/* Body Form */
+.container-body-form {
+width: 100%;
+display: flex;
+justify-content: center;
+margin-top: -64px;
+}
+.section-body-form{
+width: 47%;
+}
+
+.head-body-form h2{
+    color: rgba(25, 25, 25, 1);
+    font-size: 32px;
+}
+
+.head-body-form p {
+    color: rgba(25, 25, 25, 1);
+    font-size: 16px;
+}
+
+.form {
+    margin-top: 60px;
+}
+
+.form hr{
+    position: static;
+    margin-top: 24px;
+    width:100%;
+}
+
+.grid-form-seller, .grid-form-vehicle {
+    margin-top: -8px;
+    display: grid;
+    width: 100%; 
+    grid-template-columns: repeat(3, 1fr); 
+    column-gap: 30px; 
+}
+
+.button-form{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 22px;
+}
+/* Body Form */
+
+@media (max-width: 600px) {
+    /* Head Form */
+    .container-head-form{
+        margin-top: -42px;
+    }
+    .container-head-text{
+        margin-left: 0px;
+    }
+    .container-head-text h1{
+        font-size: 35px;
+        margin-top: -50px;
+        width: 170px;
+    }
+    .container-head-img img{
+        width: 230px;
+        height: auto;
+        margin-right: -20px;
+    }
+    hr{
+        top:318px;
+    }
+    .h1-span{
+        font-size: 28px;
+    }
+    /* Head Form */
+
+    /* Body Form */
+    .container-body-form{
+        margin-top: -120px;
+    }
+
+    .section-body-form{
+        width: 80%
+    }
+    .grid-form-seller, .grid-form-vehicle {
+        grid-template-columns: 1fr; 
+    }
+    /* Body Form */
+}
+

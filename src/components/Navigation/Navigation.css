@@ -1,0 +1,46 @@
+.container-logo{
+    position: relative;
+    width: 53px;
+    height: 40px;
+}
+
+.logo {
+    position: absolute;
+    width: 53px;
+    height: 40px;
+    top: 25px;
+    left: 35px;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 128px;
+    gap: 16px;
+}
+.container-header {
+    width: 100%;
+    display: relative;
+    justify-content: center;
+}
+.vertical-hr {
+    display: block;
+}
+
+@media (max-width: 600px){
+    .container-nav{
+        margin-right: 10px;
+        gap: 0px;
+    }
+
+    .logo{
+        left: 16px;
+    }
+
+    .vertical-hr {
+        display:inline ;
+        width: 1px; 
+        height: 17px; 
+        background-color: rgb(0, 0, 0, 0.4); 
+      }
+}
